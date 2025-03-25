@@ -1,0 +1,11 @@
+Requirements
+More concretely, we would like you to implement:
+
+1. Aweb service that implements the above API.
+
+2. For the "asyne" API (POST /image and GET /image), itis expected that the actual OCR is run through
+‘some background worker(s), that do not block the web server implementing the web API.
+
+3. For the actual OCR, we recommend you to use tesseract.
+
+(One way to use tesseract is to use a Ubuntu docker container defined as follows:
